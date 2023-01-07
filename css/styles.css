@@ -20,6 +20,15 @@
   color: #FFFFFF;
 }
 
+.btn-subscribe {
+  color: #F15B22;
+}
+
+.btn-call-now {
+  background-color: #fff;
+  color: #F15B22;
+}
+
 /* Header styles */
 .header {
   background-image: url('../images/banner/banner1.png');
@@ -83,6 +92,7 @@ section {
 
 .item {
   padding: 7px 15px;
+  color: #444343;
 }
 
 /* My plans section styles */
@@ -111,7 +121,32 @@ section {
   color: #151414;
 }
 
-.item-of-plans {
+.item-description {
+  margin-top: 12px;
   font-size: 20px;
   color: #444343;
+}
+
+/* Box-model styles */
+.box-container {
+  padding: 0 180px;
+}
+
+.box {
+  height: 300px;
+  border-radius: 8px;
+  padding: 59px 64px;
+  background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('../images/watch.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-heading {
+  color: #fff;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.box-btn {
+  margin-top: 20px;
 }
