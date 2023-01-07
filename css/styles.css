@@ -84,3 +84,34 @@ section {
 .item {
   padding: 7px 15px;
 }
+
+/* My plans section styles */
+.my-plan-container {
+  padding: 0 180px;
+}
+
+.plan-heading {
+  text-align: center;
+}
+
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.item-of-plan img {
+  padding: 10px 20px;
+}
+
+.item-title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #151414;
+}
+
+.item-of-plans {
+  font-size: 20px;
+  color: #444343;
+}
