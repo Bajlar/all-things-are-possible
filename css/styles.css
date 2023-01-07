@@ -25,6 +25,7 @@
   background-image: url('../images/banner/banner1.png');
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 800px;
   padding: 200px 180px 0 0;
 }
 
@@ -43,4 +44,43 @@
   font-size: 16px;
   color: #444343;
   margin-bottom: 32px;
+}
+
+/* Main section styles */
+section {
+  margin-top: 130px;
+}
+
+/* Failures-year styles */
+.failures-container {
+  display: flex;
+  padding: 0 200px;
+}
+
+.profile-pic img {
+  width: 400px;
+}
+
+.failure-content {
+  margin-left: 95px;
+  margin-top: 140px;
+}
+
+.section-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #151414;
+}
+
+.section-description {
+  margin-top: 20px;
+}
+
+.list-items {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.item {
+  padding: 7px 15px;
 }
