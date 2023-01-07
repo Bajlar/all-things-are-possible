@@ -76,7 +76,7 @@ section {
 }
 
 .section-title {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: bold;
   color: #151414;
 }
@@ -143,10 +143,60 @@ section {
 
 .box-heading {
   color: #fff;
-  font-size: 33px;
+  font-size: 35px;
   font-weight: bold;
 }
 
 .box-btn {
   margin-top: 20px;
+}
+
+/* Footer styles */ 
+.footer {
+  background-color: #151414;
+  min-height: 578px;
+  padding: 130px 180px;
+  color: #fff;
+  margin-top: 130px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  margin-top: 18px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.icon img {
+  margin-right: 15px;
+}
+
+.info-title {
+  background-color: #151414;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input[type='email'] {
+  margin-top: 22px;
+  width: 100%;
+  padding: 20px 15px;
+  background-color: #151414;
+  color: #fff;
+  margin-bottom: 17px;
+  border: #151414;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
